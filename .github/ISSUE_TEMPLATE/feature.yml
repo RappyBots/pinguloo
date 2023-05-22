@@ -1,0 +1,14 @@
+name: Feature
+description: Schlage eine neue Funktion vor, um Pinguloo zu noch funktioneller zu machen.
+title: 'Feature: '
+labels: ['feature']
+assignees:
+  - 'RappyTV'
+body:
+  - type: textarea
+    id: what-feature
+    attributes:
+      label: Beschreibe deine Idee
+      description: Auch die Umsetzung und genaue Funktionalität kann hier beschrieben werden.
+    validations:
+      required: true
