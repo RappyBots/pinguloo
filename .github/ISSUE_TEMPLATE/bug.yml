@@ -1,0 +1,19 @@
+name: Bug
+description: Melde einen Fehler, um uns zu helfen, Pinguloo zu verbessern.
+title: 'Bug: '
+labels: ['bug']
+assignees:
+  - 'RappyTV'
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Was ist passiert?
+      description: Beschreibe wie und wo der Fehler aufgetreten ist.
+    validations:
+      required: true
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: Zusätzliche Informationen
+      description: Gib uns weitere Informationen, die uns helfen könnten, den Fehler zu reproduzieren. Du kannst auch gerne Screenshots oder Videos anhängen.
