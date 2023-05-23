@@ -1,7 +1,7 @@
 name: Feature
 description: Schlage eine neue Funktion vor, um Pinguloo zu noch funktioneller zu machen.
 title: 'Feature: '
-labels: ['feature']
+labels: ['enhancement']
 assignees:
   - 'RappyTV'
 body:
